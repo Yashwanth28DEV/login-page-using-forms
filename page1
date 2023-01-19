@@ -1,0 +1,115 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0%;
+            }
+           .container{
+            background-color: blueviolet;
+            margin-top: -18px;
+            height: 100%;
+           }
+           legend{
+            margin-left: 600px;
+            size: 10px;
+           }
+           button:hover{
+            cursor: pointer;
+           }
+           button{
+            margin-top: -22px;
+                display: flex;
+                background-color: aqua;
+                animation-name: move;
+                animation-duration: 2s;
+                animation-delay: 0s;
+                animation-fill-mode: both;
+                position: absolute;
+           }
+           @keyframes move{
+                from{transform: translatex(-500px);}
+                to{transform: translatex(500px);
+                }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <legend>LOGIN PAGE</legend>
+                <fieldset>
+                    <table>
+                        <h1>Step 1: Your Details</h1>
+                        <tr>
+                            <td>Name</td>
+                            <td><input type="text" placeholder="First and last name"></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="text" placeholder="example@domain.com"></td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td><input type="text" placeholder="Eg.+4475000000000"></td>
+                        </tr>
+                    </table>
+                    </fieldset>
+                       <fieldset>
+                        <table>
+                            <h1>Step 2:address</h1>
+                            <tr>
+                                <td>Address</td>
+                                <td><textarea rows="8" cols="20"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Postcode</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Country</td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>
+                       </fieldset>
+                        <fieldset>
+                            <table>
+                                <h1>Step 3: Education </h1>
+                        <tr>
+                            <td>qualification</td>
+                            <td><input type="checkbox">10th</td>
+                            <td><input type="checkbox">12th</td>
+                            <td><input type="checkbox">UG</td>
+                            <td><input type="checkbox">PG</td>
+                        </tr>
+                        <tr>
+                            <td>Degree courses</td>
+                            <td><input type="radio" name="abc">BCOM</td>
+                            <td><input type="radio" name="abc">BCA</td>
+                            <td><input type="radio" name="abc">BBA</td>
+                        </tr>
+                        <tr>
+                            <td>Select your country</td>
+                            <td><select>
+                                <option>India</option>
+                                <option>China</option>
+                                <option>Pakistan</option>
+                                <option>USA</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><button>Submit</button></td>
+                            <td><button>Reset</button></td>
+                        </tr>
+                            </table>
+                        
+                    </table>
+                </fieldset>
+            </form>
+            
+            
+          
+            
+        </div>
+    </body>
+</html>
